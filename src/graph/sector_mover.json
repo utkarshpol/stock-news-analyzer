@@ -1,0 +1,87 @@
+{
+  "Energy": {
+    "movers": [
+      {"name": "Geopolitical Shock", "direction": "direct", "weight": 0.9},
+      {"name": "Supply Chain/Energy", "direction": "direct", "weight": 0.9},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.6},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "Materials": {
+    "movers": [
+      {"name": "Economic Output", "direction": "direct", "weight": 0.9},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.7},
+      {"name": "Geopolitical Shock", "direction": "direct", "weight": 0.7},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.6}
+    ]
+  },
+  "Industrials": {
+    "movers": [
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.7},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "Consumer Discretionary": {
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.8},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.7},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.6}
+    ]
+  },
+  "Consumer Staples": {
+    "movers": [
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "Health Care": {
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6},
+      {"name": "Currency & Rates", "direction": "direct", "weight": 0.6},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.5}
+    ]
+  },
+  "Information Technology": {
+    "movers": [
+      {"name": "Currency & Rates", "direction": "direct", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6},
+      {"name": "Employment (Labor)", "direction": "direct", "weight": 0.6}
+    ]
+  },
+  "Financials": {
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.9},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.8},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.8},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7}
+    ]
+  },
+  "Communication Services": {
+    "movers": [
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.6},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.5},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7}
+    ]
+  },
+  "Utilities": {
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.8},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.8},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "Real Estate": {
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.9},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.7},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.6}
+    ]
+  }
+}

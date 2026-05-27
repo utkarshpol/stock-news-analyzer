@@ -1,0 +1,77 @@
+{
+  "Energy": {
+    "commodities": [
+      {"name": "Crude Oil", "direction": "direct", "weight": 0.9},
+      {"name": "Natural Gas", "direction": "direct", "weight": 0.8},
+      {"name": "Uranium", "direction": "direct", "weight": 0.4}
+    ]
+  },
+  "Materials": {
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "direct", "weight": 0.9},
+      {"name": "Aluminum", "direction": "direct", "weight": 0.8},
+      {"name": "Copper", "direction": "direct", "weight": 0.8},
+      {"name": "Cement", "direction": "direct", "weight": 0.7},
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "Industrials": {
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.9},
+      {"name": "Copper", "direction": "inverse", "weight": 0.7},
+      {"name": "Cement", "direction": "inverse", "weight": 0.7},
+      {"name": "Aluminum", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "Consumer Discretionary": {
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.9},
+      {"name": "Aluminum", "direction": "inverse", "weight": 0.8},
+      {"name": "Lithium", "direction": "inverse", "weight": 0.8},
+      {"name": "Rubber", "direction": "inverse", "weight": 0.7},
+      {"name": "Copper", "direction": "inverse", "weight": 0.6},
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "Consumer Staples": {
+    "commodities": [
+      {"name": "Palm Oil", "direction": "inverse", "weight": 0.8},
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.7},
+      {"name": "Cotton", "direction": "inverse", "weight": 0.6},
+      {"name": "Agricultural", "direction": "inverse", "weight": 0.7}
+    ]
+  },
+  "Health Care": {
+    "commodities": [
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.5},
+      {"name": "Agricultural", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "Information Technology": {
+    "commodities": [
+      {"name": "Copper", "direction": "inverse", "weight": 0.3}
+    ]
+  },
+  "Financials": {
+    "commodities": [
+      {"name": "Gold", "direction": "direct", "weight": 0.3}
+    ]
+  },
+  "Communication Services": {
+    "commodities": []
+  },
+  "Utilities": {
+    "commodities": [
+      {"name": "Natural Gas", "direction": "inverse", "weight": 0.8},
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.5},
+      {"name": "Uranium", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "Real Estate": {
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.9},
+      {"name": "Cement", "direction": "inverse", "weight": 0.9},
+      {"name": "Copper", "direction": "inverse", "weight": 0.6}
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "RELIANCE": {
+    "sector": "Energy",
+    "commodities": [
+      {"name": "Crude Oil", "direction": "direct", "weight": 0.9},
+      {"name": "Natural Gas", "direction": "direct", "weight": 0.8}
+    ],
+    "movers": [
+      {"name": "Geopolitical Shock", "direction": "direct", "weight": 0.9},
+      {"name": "Supply Chain/Energy", "direction": "direct", "weight": 0.8},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.6},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "HDFCBANK": {
+    "sector": "Financials",
+    "commodities": [],
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.9},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.8},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.8},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7},
+      {"name": "Employment (Labor)", "direction": "direct", "weight": 0.5},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.5}
+    ]
+  },
+  "BHARTIARTL": {
+    "sector": "Communication Services",
+    "commodities": [],
+    "movers": [
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.6},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.5},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.5}
+    ]
+  },
+  "ICICIBANK": {
+    "sector": "Financials",
+    "commodities": [],
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.9},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.8},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.8},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7}
+    ]
+  },
+  "TCS": {
+    "sector": "Information Technology",
+    "commodities": [],
+    "movers": [
+      {"name": "Currency & Rates", "direction": "direct", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6},
+      {"name": "Employment (Labor)", "direction": "direct", "weight": 0.6}
+    ]
+  },
+  "INFY": {
+    "sector": "Information Technology",
+    "commodities": [],
+    "movers": [
+      {"name": "Currency & Rates", "direction": "direct", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6},
+      {"name": "Employment (Labor)", "direction": "direct", "weight": 0.6}
+    ]
+  },
+  "LT": {
+    "sector": "Industrials",
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.9},
+      {"name": "Cement", "direction": "inverse", "weight": 0.8},
+      {"name": "Copper", "direction": "inverse", "weight": 0.6}
+    ],
+    "movers": [
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.9},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.7},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "HINDUNILVR": {
+    "sector": "Consumer Staples",
+    "commodities": [
+      {"name": "Palm Oil", "direction": "inverse", "weight": 0.8},
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.6},
+      {"name": "Agricultural", "direction": "inverse", "weight": 0.6}
+    ],
+    "movers": [
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.9},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.7},
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.6}
+    ]
+  },
+  "SBIN": {
+    "sector": "Financials",
+    "commodities": [],
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.9},
+      {"name": "Inflation Data", "direction": "inverse", "weight": 0.8},
+      {"name": "Currency & Rates", "direction": "inverse", "weight": 0.8},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.7}
+    ]
+  },
+  "TATAMOTORS": {
+    "sector": "Consumer Discretionary",
+    "commodities": [
+      {"name": "Steel/Iron", "direction": "inverse", "weight": 0.9},
+      {"name": "Aluminum", "direction": "inverse", "weight": 0.8},
+      {"name": "Lithium", "direction": "inverse", "weight": 0.8},
+      {"name": "Rubber", "direction": "inverse", "weight": 0.7},
+      {"name": "Copper", "direction": "inverse", "weight": 0.6},
+      {"name": "Crude Oil", "direction": "inverse", "weight": 0.5}
+    ],
+    "movers": [
+      {"name": "Central Bank Policy", "direction": "inverse", "weight": 0.8},
+      {"name": "Economic Output", "direction": "direct", "weight": 0.8},
+      {"name": "Supply Chain/Energy", "direction": "inverse", "weight": 0.7},
+      {"name": "Fiscal Policy", "direction": "direct", "weight": 0.6}
+    ]
+  }
+}
