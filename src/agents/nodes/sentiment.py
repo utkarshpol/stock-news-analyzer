@@ -91,7 +91,8 @@ async def sentiment_agent_node(state: GraphState) -> dict:
     # Instantiate Gemini 2.5 Flash with low temperature for analytical consistency
     llm = ChatOllama(
         model="gemma3:4b",
-        temperature=0.1
+        temperature=0.1,
+        base_url="http://ollama_service:11434"  # Pointing to Ollama service within Docker Compose network
     )
 
     # 1. Schedule sentiment evaluation tasks for every active graph node concurrently

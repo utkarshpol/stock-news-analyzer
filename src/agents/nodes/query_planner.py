@@ -41,7 +41,8 @@ async def query_planner_agent_node(state: GraphState) -> dict:
     # Instantiate Gemini 2.5 Flash
     llm = ChatOllama(
         model="gemma3:4b",
-        temperature=0.1
+        temperature=0.1,
+        base_url="http://ollama_service:11434"  # Pointing to Ollama service within Docker Compose network
     )
     
     # To programmatically grab token metrics without a callback wrapper, 

@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: graph_rag_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama_service:11434
+      - REDIS_URL=redis://redis_service:6379/0
+    depends_on:
+      - redis_service
+      - ollama_service
+  ollama_service:
+    build: ./ollama
+    container_name: graph_rag_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+  redis_service:
+    image: redis:7-alpine
+    container_name: graph_rag_redis
+    ports:
+      - "6379:6379"
+volumes:
+    ollama_data:
